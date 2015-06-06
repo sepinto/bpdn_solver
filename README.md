@@ -1,12 +1,8 @@
-CSAC
+Basis Pursuit Denoising Solver
 ===============
 
-Compressive Sampling in Audio Compression
+Global parameters are controlled in the toplevel params.py.
 
-A novel perceptual audio codec written by Marina Bosi & Stephen Pinto
-
-Global parameters are controlled in the toplevel params.py. Run the system with run.py.
-
-Output will be in ./wavs/output/
+Test the system with nosetests in the tests directory
 
 Visualize the system with the python scripts in the visual directory.

@@ -1,11 +1,8 @@
-from unittest import TestCase
-
 import numpy as np
-
 from src.functions.dct import *
 
 
-class TestDCT(TestCase):
+class TestDCT():
     def setUp(self):
         self.N_list = np.power(2, np.linspace(1, 11, 11))
 

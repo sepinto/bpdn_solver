@@ -1,8 +1,8 @@
 import numpy as np
 from src.objects.minimizer import Minimizer
-from src.objects.audiofile import CodingParams
+from params import CodingParams
 from src.functions.matrices import create_Z, RandomSubset
-from params import setCodingParams, setDecodingParams
+from params import setDecodingParams
 
 def generate_data(m, n):
     np.random.seed()
@@ -12,7 +12,6 @@ def generate_data(m, n):
 
     cp = CodingParams()
     cp = setDecodingParams(cp)
-    cp = setCodingParams(cp)
     cp.full_block_length = n
     cp.compressed_block_length = m
 

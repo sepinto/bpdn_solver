@@ -41,7 +41,7 @@ def solve(admm_minimizer):
     print "CVX took " + str(end - start)
     print "CVX pstar is " + str(p_star_cvx) + " while mine is " + str(p_star)
     # assert np.allclose(x_star, x_star_cvx, atol=10**-4.0)
-    assert np.isclose(p_star, p_star_cvx, atol=10**-2.0)
+    assert np.isclose(p_star, p_star_cvx, atol=10**-1.0)
 
 def run_quadratic(fcn, m, n):
     admm_minimizer = setUpADMMMinimizer(m, n, ratio_of_max=0.1)

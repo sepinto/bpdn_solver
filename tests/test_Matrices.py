@@ -1,19 +1,11 @@
-from unittest import TestCase
-
 import numpy as np
 from src.functions.matrices import *
-from src.functions.dft import DFT
 
-class TestMatrices(TestCase):
+class TestMatrices():
     def setUp(self):
         self.m_list = [64]#np.power(2, np.linspace(1, 7, 7))
         self.compression_list = [8]#np.power(2, np.linspace(1, 3, 3))
         self.seed = np.random.randint(100)
-
-    def test_dft_of_ones_is_identity(self):
-        for m in self.m_list:
-            H = create_H(np.ones(m))
-            assert(np.allclose(H, np.eye(m)))
 
     def test_left_multiply_phi(self):
         for m in self.m_list:
@@ -38,20 +30,6 @@ class TestMatrices(TestCase):
                 phi = create_Phi(n, phi_indices)
 
                 assert(np.allclose(Phi_A_PhiT(A, phi_indices), np.dot(phi, np.dot(A, phi.transpose()))))
-
-    def test_left_multiply_H(self):
-        for m in self.m_list:
-            for c in self.compression_list:
-                n = m * c
-                x = np.random.rand(n)
-
-                signal = np.random.rand(n)
-                signal_dft = DFT(signal)
-
-                H = create_H(signal_dft)
-
-                assert np.allclose(left_multiply_H(x, signal_dft), np.dot(H, x))
-                assert np.allclose(left_multiply_H(x, signal_dft, transpose=True), np.dot(H.transpose(), x))
 
     def test_left_multiply_psi(self):
         for m in self.m_list:

@@ -49,20 +49,6 @@ class BarrierMethodMinimizer(Minimizer):
             self.t = self.coding_params.mu * self.t
             self.iter_data = NewtonIterationData(self.z, self)
 
-    # def barrier_step(self):
-    #     self.centering_step()
-    #     self.optimal_nt = False # Reset for next centering step
-    #     self.z = np.copy(self.iter_data.z)
-    #     if (self.num_inequalities / self.t) < self.coding_params.epsilon:
-    #         self.optimal = True
-    #         return
-    #     self.t = self.coding_params.mu * self.t
-    #
-    # def centering_step(self):
-    #     self.iter_data = NewtonIterationData(self.z, self)
-    #     while not self.optimal_nt:
-    #         self.newton_iteration()
-
     def newton_iteration(self):
         z_step = -1.0 * self.iter_data.left_multiply_hess_newton_obj_inv(self.iter_data.get('grad_newton_obj'))
         z_dec = np.dot(self.iter_data.get('grad_newton_obj'), -1.0 * z_step)

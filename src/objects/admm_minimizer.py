@@ -16,7 +16,7 @@ class ADMMMinimizer(Minimizer):
         self.prev_z = np.zeros(self.n)
         self.u = np.zeros(self.n)
         self.optimal = False
-        self.relative_epsilon = 10 ** -2
+        self.relative_epsilon = 10 ** -3.5
         self.iterations = 0
         self.max_iters = 1000
 

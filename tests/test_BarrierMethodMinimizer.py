@@ -92,8 +92,8 @@ class TestBarrierMethodMinimizer:
     def test_always_feasible(self):
         run_through_many_sizes(always_feasible, self.m_list, self.compression_list)
 
-    def test_hess_psd(self):
-        run_through_many_sizes(hess_psd, self.m_list, self.compression_list)
+    # def test_hess_psd(self): # Reallyyyyyy slow
+    #     run_through_many_sizes(hess_psd, self.m_list, self.compression_list)
 
     def test_descent(self):
         run_through_many_sizes(descent, self.m_list, self.compression_list)
