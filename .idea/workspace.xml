@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f153eb00-02a6-4ccd-8d38-eadf563ed659" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/both2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/decode_paper.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/decoding.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/decoding_code.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/encode_paper.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/encoding.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/encoding_code.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs.pptx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/full_paper.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/proposal.pages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/matlab/dct_type1.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/matlab/idct_type1.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/matlab/perc_mat.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/matlab/playground.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/matlab/sparse_dct.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protobuf/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protobuf/csac_file.proto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/signals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/functions/dft.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/functions/mdct.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/functions/psychoac.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/functions/quantize.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/functions/window.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/audiofile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/block.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/cs_compressor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/cs_file.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/cs_reconstructor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/decoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/encoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/pcmfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/objects/reconstruction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/iter_data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_CSACFile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_CSCompressor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_DFT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_MDCT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_PerfectReconstruction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_signals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visual/vids/vid_files_go_here.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visual/visual_params.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visual/visualize_BadBlock.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visual/visualize_Decoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visual/visualize_Encoder.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/objects/admm_minimizer.py" afterPath="$PROJECT_DIR$/src/objects/admm_minimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/objects/barrier_method_minimizer.py" afterPath="$PROJECT_DIR$/src/objects/barrier_method_minimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functions/matrices.py" afterPath="$PROJECT_DIR$/src/functions/matrices.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/params.py" afterPath="$PROJECT_DIR$/params.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_ADMMMinimizer.py" afterPath="$PROJECT_DIR$/tests/test_ADMMMinimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_BarrierMethodMinimizer.py" afterPath="$PROJECT_DIR$/tests/test_BarrierMethodMinimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_DCT.py" afterPath="$PROJECT_DIR$/tests/test_DCT.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_Matrices.py" afterPath="$PROJECT_DIR$/tests/test_Matrices.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_Minimizer.py" afterPath="$PROJECT_DIR$/tests/test_Minimizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bpdn_solver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,13 +69,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_BarrierMethodMinimizer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_BarrierMethodMinimizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_BarrierMethodMinimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58189654">
+            <state vertical-scroll-proportion="0.0">
               <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="params.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/params.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualize_ADMM.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visual/visualize_ADMM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,30 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admm_minimizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/admm_minimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="barrier_method_minimizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/barrier_method_minimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -294,56 +238,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpdn_solver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpdn_solver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpdn_solver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpdn_solver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpdn_solver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpdn_solver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -634,14 +528,14 @@
     <frame x="659" y="23" width="1261" height="1173" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37580645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33024976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33024976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -662,14 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -678,16 +564,6 @@
         <state vertical-scroll-proportion="-1.5517242">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visual/visualize_ADMM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,10 +677,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_BarrierMethodMinimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58189654">
+        <state vertical-scroll-proportion="0.0">
           <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visual/visualize_ADMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
