@@ -1,0 +1,8 @@
+*.pyc
+*.wav
+*.pac
+*.csac
+*.mp4
+.DS_Store
+protobuf/csac_file_pb2.py
+
